@@ -1,0 +1,31 @@
+Log in to your AWS account and go to the EC2 dashboard.
+
+Click on "Launch Instance" and choose an Amazon Machine Image (AMI) for the Linux operating system.
+
+Choose an instance type and configure the instance details, such as the number of instances, VPC, and subnet.
+
+Add storage as per your requirement.
+
+Add security group rules to allow SSH connection.
+
+Launch the instance and download the private key (.pem) file.
+
+Open Mobaxterm and click on "Session" in the top menu.
+
+In the "Session" tab, select "SSH" as the protocol.
+
+Enter the IP address of the Linux instance in the "Remote host" field.
+
+In the "Advanced SSH settings" section, go to the "SSH-browser" tab and click on the "Browse" button next to the "Private key" field.
+
+Select the .pem file that you downloaded earlier and click on "OK".
+
+Go back to the "Session" tab and give a name to your session in the "Saved Sessions" field.
+
+Click on "OK" to save your session.
+
+Double-click on the saved session to connect to the Linux instance.
+
+You can now use the command line interface (CLI) to manage your Linux instance.
+
+Once you are done with the instance, terminate it to avoid any additional charges.

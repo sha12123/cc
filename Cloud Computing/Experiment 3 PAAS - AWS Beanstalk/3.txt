@@ -1,0 +1,16 @@
+Aim: Write steps and Implement Platform as a service in AWS by deploying static/dynamic web application or web services.  Make sure instances should be terminated after successful implementation.
+
+To implement Platform as a Service in AWS by deploying a web application or web services, you can follow these steps:
+
+Create an AWS account and log in to the AWS Management Console.
+Navigate to the AWS Elastic Beanstalk service from the console.
+Click on the "Create New Application" button.
+Provide a name and description for your application.
+Select the platform for your application. For example, if you are deploying a Python web application, choose the Python platform.
+Choose the type of environment for your application. For example, if you want a web server to host your web application, choose the Web Server environment.
+Configure the environment settings, such as the instance type, key pair, and database settings.
+Upload your web application code or web service code to the Elastic Beanstalk environment.
+Start the deployment process by clicking the "Create Environment" button.
+Wait for the deployment to complete. This may take several minutes or more, depending on the size and complexity of your application.
+Test your application by navigating to the URL provided by the Elastic Beanstalk environment.
+Once you have confirmed that your application is working correctly, terminate the environment to avoid unnecessary charges.

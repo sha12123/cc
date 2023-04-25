@@ -1,0 +1,1 @@
+Write steps and Implement Database as a service in AWS on NOSQL using DynamoDB. Create Student table. Make sure instances should be terminated after successful implementation.

@@ -1,0 +1,13 @@
+Aim: Write steps and Implement Infrastructure as a service(Ubuntu Virtual Machine) in AWS.also show RDP using Putty. Make sure instances should be terminated after successful implementation. 
+
+Sign in to your AWS account and go to the EC2 dashboard.
+Click on the "Launch Instance" button and select the Ubuntu Server 20.04 LTS (HVM) instance type.
+Choose the instance type and configure the instance settings as per your requirements.
+In the "Add Storage" section, you can choose the storage capacity and type for your instance.
+In the "Add Tags" section, you can add tags to your instance for better organization and management.
+In the "Configure Security Group" section, create a new security group with inbound rules to allow SSH (port 22) access from your IP address.
+Review your instance details and launch the instance. Select the key pair option to access the instance.
+Download and save the private key file for the key pair you selected in the previous step.
+Open Putty and enter the IP address of the instance in the Host Name field.
+In the left-hand navigation menu, go to Connection > SSH > Auth and select the private key file you downloaded in step 8.
+Click on the "Open" button to connect to your Ubuntu instance using Putty.

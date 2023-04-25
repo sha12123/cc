@@ -1,0 +1,22 @@
+Write steps for Infrastructure as a service(Linux Virtual Machine) in AWS.also show RDP using Putty. Make sure instances should be terminated after successful implementation. 
+
+
+It is important to note that RDP is a remote desktop protocol for Windows machines, whereas Linux machines typically use SSH for remote access.
+
+Here are the steps to create a Linux virtual machine (EC2 instance) in AWS and access it using SSH with Putty:
+
+Open the AWS Management Console and navigate to the EC2 dashboard.
+Click on the "Launch Instance" button to create a new instance.
+Select an Amazon Machine Image (AMI) for your Linux operating system (e.g. Ubuntu, Red Hat, Amazon Linux).
+Choose an instance type (e.g. t2.micro).
+Configure instance details (e.g. network settings, storage).
+Add tags to your instance (optional).
+Configure security groups to control inbound and outbound traffic to your instance.
+Review your instance configuration and launch it.
+Select or create a key pair to use for SSH access.
+Launch the instance and wait for it to start running.
+Connect to the instance using SSH client like Putty. Make sure that you have the IP address of your instance, and the key pair that you have chosen in step 9.
+Open Putty, enter the IP address of your instance, and select SSH as the connection type.
+Load the private key that corresponds to the key pair selected in step 9.
+Click on the "Open" button and you should be able to access the command line of your Linux instance using Putty.
+You can now perform any necessary configurations or installations on your Linux instance via the command line.

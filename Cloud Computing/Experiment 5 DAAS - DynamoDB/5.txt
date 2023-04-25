@@ -1,0 +1,25 @@
+Here are the steps to implement Database as a Service in AWS using DynamoDB:
+
+Login to your AWS console and navigate to the DynamoDB service.
+
+Click on the “Create table” button.
+
+Enter a name for your table, and set the primary key.
+
+Choose the provisioned throughput capacity for your table. This determines the maximum number of read and write capacity units that your table can handle per second.
+
+Click on the “Create” button.
+
+Once the table is created, you can start adding items to it using the console or API.
+
+To access the data stored in DynamoDB, you can use the AWS SDKs or APIs.
+
+To terminate the instance after successful implementation, go to the DynamoDB console, select the table you created and click on the “Delete table” button.
+
+Confirm the action by typing the table name in the box provided and click “Delete”.
+
+Your DynamoDB table and any data stored in it will be permanently deleted.
+
+
+
+

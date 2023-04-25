@@ -1,0 +1,13 @@
+Login to your AWS account and go to the EC2 dashboard.
+Click on the "Launch Instance" button and select the Windows Server AMI.
+Choose the instance type, configure the details and add storage as per your requirements.
+Configure security group settings to allow RDP access to the instance.
+Launch the instance and download the RDP file from the EC2 dashboard.
+Open the RDP file and enter the public IP address or DNS name of the instance.
+Enter the username and password to connect to the instance.
+To terminate the instance, follow these steps:
+
+Go to the EC2 dashboard and select the instance that you want to terminate.
+Click on the "Actions" button and select "Instance State" > "Terminate".
+Confirm the termination and wait for the instance to be terminated.
+It is important to terminate instances after use to avoid unnecessary charges.

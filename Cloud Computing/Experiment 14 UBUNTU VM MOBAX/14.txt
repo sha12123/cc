@@ -1,0 +1,25 @@
+Open the AWS Management Console and navigate to the EC2 Dashboard.
+
+Click on the "Launch Instance" button.
+
+Select "Ubuntu Server" as the operating system for your instance and choose the appropriate instance type based on your requirements.
+
+Configure the instance details such as network settings, storage, and security group. Make sure to open port 22 to allow SSH connections.
+
+Review and launch the instance. Select an existing key pair or create a new one to securely access your instance.
+
+Once the instance is launched, note down its public IP address or DNS name.
+
+Download and install Mobaxterm on your local machine.
+
+Open Mobaxterm and click on the "Session" button.
+
+Choose "SSH" as the session type and enter the public IP address or DNS name of your Ubuntu instance in the "Remote host" field.
+
+Enter your username and password (or private key if you used one during instance launch) and click on "OK".
+
+You should now be connected to your Ubuntu instance via Mobaxterm.
+
+To terminate the instance, go back to the EC2 dashboard and select the instance. Click on the "Actions" button and choose "Terminate Instance".
+
+Confirm the termination and the instance will be terminated.

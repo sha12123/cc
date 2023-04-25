@@ -1,0 +1,27 @@
+Log in to your AWS account and go to the S3 service.
+
+Click on "Create Bucket" and provide a unique name for your bucket.
+
+Choose the region for your bucket and click on "Create".
+
+Once the bucket is created, click on it and go to the "Properties" tab.
+
+Click on "Versioning" and enable versioning for your bucket.
+
+Now, go to the "Permissions" tab and click on "Bucket Policy".
+
+Provide appropriate permissions for your bucket according to your requirements.
+
+Now, go to the "Overview" tab and click on "Upload".
+
+Choose the file that you want to upload and click on "Upload".
+
+Once the file is uploaded, you can see it in the bucket.
+
+To view the version history of the uploaded file, click on the file and go to the "Versions" tab.
+
+Here, you can see all the versions of the file along with their details.
+
+You can also perform various operations on the uploaded file, such as downloading, deleting, and copying.
+
+Once you are done with the implementation, make sure to terminate the instances or delete the bucket to avoid unnecessary charges.

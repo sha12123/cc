@@ -1,0 +1,12 @@
+Aim:Write steps and Implement storage as a service in AWS by creating bucket and storing various file types.  Make sure instances should be terminated after successful implementation. 
+
+Log in to your AWS account and go to the Amazon S3 console.
+Click on the "Create bucket" button to create a new bucket.
+Enter a unique name for your bucket and select a region where you want to create it.
+Choose the appropriate settings for your bucket, such as access control and versioning.
+Click on "Create bucket" to create your new bucket.
+Once your bucket is created, click on it to open its management console.
+Click on the "Upload" button to upload your files to the bucket.
+Select the files you want to upload and click on "Upload" again to start the upload process.
+Wait for the upload to complete and verify that your files are now stored in the bucket.
+You can now access your files from anywhere using the bucket's URL.

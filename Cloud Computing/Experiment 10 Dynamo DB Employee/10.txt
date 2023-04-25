@@ -1,0 +1,21 @@
+Log in to your AWS account and navigate to the DynamoDB service.
+
+Click on the "Create table" button and give your table a name, such as "Employees".
+
+Set the "Primary key" for your table. For example, you could use "employeeID" as the partition key.
+
+Under "Provisioned capacity", set the "Read capacity units" and "Write capacity units" for your table. This determines the amount of read and write operations per second that your table can handle.
+
+Click on "Create" to create your table.
+
+After your table is created, click on the "Items" tab to start adding data.
+
+Click on "Create item" to add a new employee to the table.
+
+Enter the employee's information as attributes, such as "employeeID", "name", "position", and "salary".
+
+Click on "Save" to add the employee to the table.
+
+You can now view and edit the data in your table by clicking on the "Items" tab.
+
+Once you are done with your table, you can delete it by selecting the table and clicking on "Delete table". Make sure to terminate any associated instances before deleting the table to avoid incurring unnecessary charges.

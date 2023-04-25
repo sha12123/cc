@@ -1,0 +1,12 @@
+Aim:Write steps amd implement in AWS alies user of your account and give some access write to the same. Make sure instances should be terminated after successful implementation.
+
+Here are the steps to create an AWS IAM user and give them write access:
+
+Log in to your AWS console and navigate to the IAM service.
+Click on "Users" in the left-hand menu and then click on "Add user" button.
+Provide a name for the user and check the box for "Programmatic access".
+Click on "Next" and select the "Attach existing policies directly" option.
+Search for the "AmazonS3FullAccess" policy and select it.
+Click on "Next" and review the user details.
+Click on "Create user" to create the user.
+Once the user is created, you will see their "Access key ID" and "Secret access key". Keep these credentials secure, as they are necessary to access AWS resources programmatically. 

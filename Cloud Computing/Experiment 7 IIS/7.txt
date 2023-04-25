@@ -1,0 +1,15 @@
+Aim: Write steps to create window instance, Install and configure IIS on it by .  Make sure instances should be terminated after successful implementation. 
+
+Login to your AWS console and select the EC2 service.
+Click on the Launch Instance button.
+Select Microsoft Windows Server 2012 Base as the Amazon Machine Image (AMI).
+Choose an instance type that meets your requirements and click Next.
+Configure the instance details like VPC, subnet, and security group.
+Create a new key pair or use an existing one.
+Review the instance details and launch the instance.
+Connect to the instance using RDP.
+Once connected to the instance, open the Server Manager and navigate to the Add Roles and Features wizard.
+Follow the wizard to install IIS on the instance.
+Once the installation is complete, open the Internet Information Services (IIS) Manager.
+Configure the website by adding a new website and setting up the necessary details like the port number, physical path, and host name bindings.
+Test the website by accessing it using a web browser.
